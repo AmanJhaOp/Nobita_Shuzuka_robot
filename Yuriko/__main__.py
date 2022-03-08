@@ -79,7 +79,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-yurikorobot_IMG = "https://telegra.ph/file/8b6f8f2bb4ff3912634c7.jpg"
+yurikorobot_IMG = "https://telegra.ph/file/e0f1da1d39c518ff4e202.jpg"
 
 PM_START_TEXT = """
 *👋 Hello {} !*
@@ -90,7 +90,7 @@ PM_START_TEXT = """
 × *Uᴘᴛɪᴍᴇ:* `{}`
 × `{}` *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* `{}` *Cʜᴀᴛꜱ.*
 ────────────────────────
-✗ *Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*
+✗ *Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Kaneki Bots!*
 """
 
 buttons = [
@@ -111,7 +111,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="Sᴜᴍᴍᴏɴ Mᴇ", url="http://t.me/YurikoRobot?startgroup=true"),
+        InlineKeyboardButton(text="Sᴜᴍᴍᴏɴ Mᴇ", url="http://t.me/Nobita_Shuzuka_Robot?startgroup=true"),
     ],
 ]
 
@@ -447,7 +447,7 @@ def yurikorobot_about_callback(update, context):
         query.message.edit_text(
             text=f"*Let's Make Your Group Bit Effective Now*"
             
-            f"\n✗ `Congragulations, YurikoRobot now ready to manage your group.`"
+            f"\n✗ `Congragulations, Nobita_Shuzuka_Robot now ready to manage your group.`"
             f"\n\n*Admin Tools*"
             f"\n✗ `Basic Admin tools help you to protect and powerup your group.`"
             f"\n✗ `You can ban members, Kick members, Promote someone as admin through commands of bot.`"
@@ -507,7 +507,7 @@ def yurikorobot_about_callback(update, context):
                 [[InlineKeyboardButton(text="Back", callback_data="yurikorobot_basichelp")]]
             ),
         )    
-    elif query.data == "yurikorobot_support":
+    elif query.data == "Nobita_Shuzuka_robot_support":
         query.message.edit_text(
             text="* YURIKO Support Chats*"
             
@@ -516,15 +516,15 @@ def yurikorobot_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/YurikoLogs"),
-                    InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/Deecodenews"),
+                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/Nobita_Shuzuka_Logs"),
+                    InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/Aman_Jha_Official"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/Decodesupport"),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/deecodebots"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/Kanekibots"),
+                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/Aman_Jha_Official"),
                  ],
                  [
-                    InlineKeyboardButton(text="Back", callback_data="yurikorobot_basichelp"),
+                    InlineKeyboardButton(text="Back", callback_data="Nobita_Shuzuka_robot_basichelp"),
                  
                  ]
                 ]
@@ -539,15 +539,15 @@ def yurikorobot_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="BʀᴀʏDᴇɴ", url="t.me/BrayDenXD"),
-                    InlineKeyboardButton(text="Bʟᴀᴢᴇ", url="t.me/piroXpower"),
+                    InlineKeyboardButton(text="BʀᴀʏDᴇɴ", url="t.me/No_One_Is_Mine"),
+                    InlineKeyboardButton(text="Bʟᴀᴢᴇ", url="t.me/Zomboy_xd"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sʜᴜʙʜᴀɴꜱʜᴜ", url="t.me/Shubhanshutya"),
-                    InlineKeyboardButton(text="Dᴇ Cᴏᴅᴇ", url="https://t.me/TeamDeeCode"),
+                    InlineKeyboardButton(text="Sʜᴜʙʜᴀɴꜱʜᴜ", url="t.me/VENOMxCRAZY"),
+                    InlineKeyboardButton(text="Dᴇ Cᴏᴅᴇ", url="https://t.me/Aman_Jha_Official"),
                  ],
                  [
-                    InlineKeyboardButton(text="Back", callback_data="yurikorobot_basichelp"),
+                    InlineKeyboardButton(text="Back", callback_data="Nobita_Shuzuka_robot_basichelp"),
                  
                  ]
                 ]
@@ -560,7 +560,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..😻 I'm *yurikorobot*
+            text=""" Hi..😻 I'm *Nobita Shuzuka Robot*
                  \nHere is the [🔥Source Code🔥](https://github.com/TeamDeeCode) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -814,7 +814,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1947924017 and DONATION_LINK:
+        if OWNER_ID != 5028658320 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
